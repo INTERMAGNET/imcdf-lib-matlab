@@ -1,0 +1,10 @@
+Intermagnet CDF Support for OCTAVE
+==================================
+
+To our knowledge, Octave does currently not support the INTERMAGNET CDF format.
+
+Although Octave supports NetCDF, no libraries for accessing the CDF file format are available. Unfortunately, the MATLAB routines cannot be easily transferred to Octave as they are only available as proprietary files.
+
+In order to read INTERMAGNET CDF files with Octave, you would have to modify and compile the CDF C routines.
+
+Achim Morschhauser, GFZ Potsdam, 01.09.2016
